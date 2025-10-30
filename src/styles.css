@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ocean-100: #d3ecff;
+  --color-ocean-200: #a6d9ff;
+  --color-ocean-300: #78c6ff;
+  --color-ocean-400: #4bb4ff;
+  --color-ocean-500: #34b3ff;
+  --color-ocean-600: #1e9bdc;
+}
+
+:root {
+  --font-sans: "Outfit", system-ui, -apple-system, Segoe UI, Roboto, Arial,
+    sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  font-weight: 300; /* thin/clean default */
+  font-optical-sizing: auto; /* variable font fine-tuning */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
