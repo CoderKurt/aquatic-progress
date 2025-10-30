@@ -1,18 +1,16 @@
-import { useState } from "react";
-
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <h1>Aquatic Progress</h1>
-      <div>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+      <div className="bg-ocean-500">
+        <h1>Aquatic Progress</h1>
+        <p>A calm space to reflect steady practice.</p>
+        <button
+          onClick={() => {
+            /* wired up later */
+          }}
+        >
+          Get Started
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
       </div>
     </div>
   );
